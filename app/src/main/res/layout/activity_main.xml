@@ -54,6 +54,7 @@
 
                 <com.google.android.material.button.MaterialButton
                     android:layout_width="wrap_content"
+                    android:id="@+id/create"
                     android:layout_height="wrap_content"
                     android:text="Create Alarm"
                     app:icon="@android:drawable/ic_lock_idle_alarm">
@@ -87,6 +88,7 @@
                 </TextView>
                 <TextClock
                     android:layout_width="wrap_content"
+                    android:id="@+id/clock2"
                     android:layout_height="wrap_content"
                     android:format12Hour="dd-MM-yyyy hh:mm:ss a"
                     android:layout_marginHorizontal="70dp">
@@ -94,9 +96,10 @@
                 </TextClock>
 
                 <com.google.android.material.button.MaterialButton
+                    android:id="@+id/cancel"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Create Alarm"
+                    android:text="Cancel Alarm"
                     app:icon="@android:drawable/ic_lock_idle_alarm">
 
                 </com.google.android.material.button.MaterialButton>
